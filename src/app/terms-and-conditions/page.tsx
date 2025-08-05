@@ -10,7 +10,7 @@ export default function TermsAndConditionsPage() {
                 <h1 className="text-3xl font-bold mb-6">Terms &amp; Conditions</h1>
 
                 <p className="mb-4">
-                    Please be advised that accessing or utilizing the landing page implies the user's consent to abide by the
+                    Please be advised that accessing or utilizing the landing page implies the user’s consent to abide by the
                     following terms and conditions:
                 </p>
 
@@ -24,7 +24,7 @@ export default function TermsAndConditionsPage() {
 
                 <h2 className="text-2xl font-semibold mt-6 mb-2">Property Information</h2>
                 <p className="mb-4">
-                    This landing page's content, which includes details of the properties, costs, and availability, is subject
+                    This landing page’s content, which includes details of the properties, costs, and availability, is subject
                     to change at any time. The Company is not responsible for any inaccuracies or omissions in the information
                     provided.
                 </p>
