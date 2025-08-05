@@ -49,7 +49,7 @@ export default function Footer() {
                 {/* Get In Touch Form */}
                 <div className="footer-column text-center w-75">
                     <h4 className="footer-heading">GET IN TOUCH</h4>
-                    <FooterForm />
+                    <FooterForm onClose={() => { }} />
                 </div>
             </div>
             {/* Copyright */}
