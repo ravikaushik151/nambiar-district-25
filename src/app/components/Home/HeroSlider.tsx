@@ -18,14 +18,6 @@ const slides = [
         href: '#contact',
         img: '/images/slider1.jpg',
     },
-    {
-        title: 'Where Luxury Meets Serenity',
-        subtitle: 'Premium 2 & 3 BHK Apartments at Sarjapur Road',
-        desc: '',
-        button: 'Book Your Site Visit',
-        href: '#contact',
-        img: '/images/slider2.jpg',
-    },
 ];
 
 export default function HomeHeroSlider() {

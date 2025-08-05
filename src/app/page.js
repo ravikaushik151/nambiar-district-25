@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
                 <div className="col-6 col-md-3 border-end border-light mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Starting Price</h6>
-                  <p className="mb-0 fs-2 fw-light">Rs 1.53 Cr*</p>
+                  <p className="mb-0 fs-2 fw-light">Rs 91 Lakh*</p>
                 </div>
                 <div className="col-6 col-md-3 mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Floors</h6>
@@ -429,10 +429,10 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">Outer Ring Road</div>
+                            <div className="text-size-large">Oakridge international school</div>
                           </div>
                           <div className="text-color-silvermist">
-                            <div className="text-size-regular">15 mins</div>
+                            <div className="text-size-regular">7 mins</div>
                           </div>
                         </div>
                       </div>
