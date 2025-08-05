@@ -6,7 +6,7 @@ export default function PriceBreakupModal() {
         <div
             className="modal fade"
             id="priceModal"
-            tabIndex="-1"
+            tabIndex={-1}
             aria-labelledby="priceModalLabel"
             aria-hidden="true"
         >
