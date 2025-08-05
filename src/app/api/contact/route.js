@@ -10,19 +10,23 @@ export async function POST(req) {
 
     try {
         const transporter = nodemailer.createTransport({
-            host: 'smtp.gmail.com', // e.g. smtp.gmail.com
+            host: 'smtp.gmail.com',
             port: 465,
-            secure: true,
+            secure: true, // use SSL
             auth: {
                 user: 'ravi.k@imsolutions.mobi',
-                pass: '5fC#Wm9i0Y/T',
+                pass: 'tuzr zufs sulf hilp',
             },
+            tls: {
+                rejectUnauthorized: false, // <-- add this line
+            }
         });
 
+
         await transporter.sendMail({
-            from: `"Website Contact" <your@email.com>`,
-            to: 'destination@email.com',
-            subject: 'New Contact Form Submission',
+            from: `"nambiar-district-25"`,
+            to: 'ravi.k@imsolutions.mobi',
+            subject: 'Enquiry from Nambiar District 25 - Landing Page',
             html: `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>

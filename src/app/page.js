@@ -145,10 +145,10 @@ export default function Home() {
                         className="home-stats_item"
                       >
                         <div className="text-color-accent">
-                          <h2 className="heading-style-h1 mb-2">5000 </h2>
+                          <h2 className="heading-style-h1 mb-2">796</h2>
                         </div>
                         <div className="text-color-offwhite">
-                          <div className="text-size-regular fs-5">Units</div>
+                          <div className="text-size-regular fs-5">Homes</div>
                         </div>
                       </div>
                       <div
@@ -169,10 +169,10 @@ export default function Home() {
                         className="home-stats_item"
                       >
                         <div className="text-color-accent">
-                          <h2 className="heading-style-h1 mb-2">30+</h2>
+                          <h2 className="heading-style-h1 mb-2">3500+</h2>
                         </div>
                         <div className="text-color-offwhite">
-                          <div className="text-size-regular fs-5">World Class Amenities</div>
+                          <div className="text-size-regular fs-5">Native Trees</div>
                         </div>
                       </div>
                     </div>
@@ -309,11 +309,11 @@ export default function Home() {
                   >
                     <Image
                       width={1600}
-                      height={500}
+                      height={600}
                       src="/images/masterplan.jpg"
                       loading="lazy"
                       alt=""
-                      className="home-masterplan_img blur"
+                      className="home-masterplan_img img-fluid"
                     />
                   </div>
 
@@ -332,7 +332,7 @@ export default function Home() {
                       src="/images/lp.jpg"
                       loading="lazy"
                       alt=""
-                      className="blur"
+                      className=""
                     />
                   </div>
                   <div
