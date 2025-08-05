@@ -80,7 +80,7 @@ export default function Header() {
             {/* ✅ Desktop Navbar */}
             <div
                 className={`navbar-animated position-fixed top-0 w-100 d-none d-md-block ${isVisible ? "navbar-visible bg-white" : "navbar-hidden"
-                    } ${lastScrollY < 100 ? "bg-transparent" : ""}`}
+                    } ${lastScrollY < 100 ? "bg-white" : ""}`}
                 style={{ zIndex: 999 }}
             >
                 <div className="container py-3 d-flex justify-content-between align-items-center">
@@ -106,7 +106,7 @@ export default function Header() {
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className={`text-decoration-none d-flex align-items-center gap-1 ${lastScrollY < 100 ? "text-white" : "text-dark"}`}
+                                className={`text-decoration-none d-flex align-items-center gap-1 ${lastScrollY < 100 ? "text-dark" : "text-dark"}`}
                             >
                                 <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
                                     <circle cx="4" cy="4" r="4" fill="#a1c889" />

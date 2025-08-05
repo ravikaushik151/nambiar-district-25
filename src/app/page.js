@@ -333,6 +333,7 @@ export default function Home() {
                       loading="lazy"
                       alt=""
                       className=""
+                      style={{ border: '4px solid #000' }}
                     />
                   </div>
                   <div

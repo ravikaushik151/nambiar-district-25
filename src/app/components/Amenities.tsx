@@ -5,12 +5,12 @@ import styles from '../../public/css/BiodiversityHighlights.module.css';
 
 const images = [
     { src: '/images/Built in bench seats.jpg', title: 'Built in Bench Seats' },
-    { src: '/images/butterfly garden.jpg', title: 'butterfly Garden' },
+    { src: '/images/butterfly garden.jpg', title: 'Butterfly Garden' },
     { src: '/images/Chit chat area.jpg', title: 'Chit Chat Area' },
     { src: '/images/Cricket practice pitch.jpg', title: 'Cricket Practice Pitch' },
     { src: '/images/elders park.jpg', title: 'Elders Park' },
     { src: '/images/entry.jpg', title: 'Entry' },
-    { src: '/images/futsal court.jpg', title: 'futsal court' },
+    { src: '/images/futsal court.jpg', title: 'Futsal court' },
     { src: '/images/Indoor badminton court.jpg', title: 'Indoor Badminton Court' },
     { src: '/images/indoor gym.jpg', title: 'indoor Gym' },
     { src: '/images/Indoor table games.jpg', title: 'Indoor Table Games' },

@@ -1,8 +1,8 @@
 :root {
-  --dark-rainforest: #1e291d;
+  --dark-rainforest: #4a7307;
   --grey: #dcdad2;
   --offwhite: #f3f4ef;
-  --accent: #738e62;
+  --accent: #151515;
   --enchanted: #a1c889;
   --black: black;
   --white: white;
@@ -1547,7 +1547,7 @@ figcaption {
 }
 
 .section_home-connectivity {
-  background-color: #1e291d;
+  background-color: #4a7307;
   padding-top: 8rem;
   position: relative;
   overflow: hidden;
@@ -1571,9 +1571,9 @@ figcaption {
 
 .home-connectivity_content-wrapper {
   z-index: 1;
-  grid-row-gap: 7rem;
+  grid-row-gap: 4rem;
   flex-direction: column;
-  padding-bottom: 14.25rem;
+  padding-bottom: 10.25rem;
   display: flex;
   position: relative;
 }
@@ -1624,6 +1624,7 @@ figcaption {
 
 .home-connectivity-icon {
   width: 2rem;
+  filter: brightness(0) saturate(100%) invert(0%) sepia(24%) saturate(2039%) hue-rotate(254deg) brightness(109%) contrast(100%);
 }
 
 .section_home-promoter {
@@ -1754,7 +1755,7 @@ figcaption {
 }
 
 .section_home-footer {
-  background-color: #1e291d;
+  background-color: #4a7307;
   flex-flow: column;
   justify-content: center;
   align-items: stretch;
@@ -2179,7 +2180,7 @@ figcaption {
 }
 
 .section_biodiversity-benefits {
-  background-color: #1e291d;
+  background-color: #4a7307;
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -3076,7 +3077,7 @@ figcaption {
 }
 
 .section_contact-forefront {
-  background-color: #1e291d;
+  background-color: #4a7307;
   padding-top: 7.25rem;
   padding-bottom: 5rem;
 }
@@ -3366,7 +3367,7 @@ figcaption {
 .preloader {
   z-index: 100;
   object-fit: cover;
-  background-color: #1e291d;
+  background-color: #4a7307;
   flex-flow: column;
   justify-content: flex-end;
   align-items: center;
@@ -4103,7 +4104,7 @@ figcaption {
 
 .gallery-video_tab-link.w--current {
   color: var(--grey);
-  background-color: #1e291d;
+  background-color: #4a7307;
 }
 
 .gallery-video_tab-link-left {
@@ -6178,7 +6179,7 @@ figcaption {
   .location-duration_darkrainforest2,
   .location-duration_darkrainforest3,
   .location-duration_darkrainforest4 {
-    color: #1e291d;
+    color: #4a7307;
   }
 
   .contact-hero_components {
