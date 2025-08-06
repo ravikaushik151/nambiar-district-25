@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
                 <p><strong>Last Updated:</strong> August 6, 2025</p>
 
                 <p>
-                    <strong>Nambiar District 25</strong> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal data when you interact with our services, including our website (
+                    <strong>Nambiar District 25</strong> (we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal data when you interact with our services, including our website (
                     <a href="https://nambiardistrict25.live/" className="text-primary" target="_blank" rel="noopener noreferrer">
                         https://nambiardistrict25.live/
                     </a>
