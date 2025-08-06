@@ -8,41 +8,146 @@ export default function PrivacyPolicyPage() {
             <div className="container mx-auto px-4 py-5">
                 <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
 
-                <p className="mb-4">
-                    This website is not the official one; it is only meant to be used for informative purposes. In our
-                    commitment to safeguarding your personal information, we have formulated this comprehensive privacy policy
-                    to protect your interests and data on our website.
+                <p><strong>Effective Date:</strong> August 6, 2025</p>
+                <p><strong>Last Updated:</strong> August 6, 2025</p>
+                <p>
+                    Nambiar District 25 (“we,” “our,” or “us”) operates in Real Estate. This Privacy Policy
+                    applies to our website (
+                    <strong>
+                        <a
+                            href="https://nambiardistrict25.live/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 underline"
+                        >
+                            https://nambiardistrict25.live/
+                        </a>
+                    </strong>
+                    ), lead forms, marketing campaigns, and third-party integrations.
                 </p>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-2">Update of Privacy Policy</h2>
-                <p className="mb-4">
-                    This privacy policy is open to revision and review at any time, without notification or consent. Therefore,
-                    please re-visit the website and regularly go through the terms and conditions of this privacy policy to
-                    stay informed about the modifications that have been made.
-                </p>
+                <ol className="list-decimal pl-6 mt-4 space-y-4">
+                    <li>
+                        <strong>Information We Collect</strong>
+                        <p><strong>Personal Data:</strong> Name, email, phone, preferences submitted through forms.</p>
+                        <p><strong>Automatically Collected Data:</strong> IP address, browser, pages visited, dwell time, via analytics tools (Google, Meta).</p>
+                    </li>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-2">User Information</h2>
-                <p className="mb-4">
-                    By accessing our website, you accept our terms and give permission for us to collect and use any
-                    information you voluntarily submit. While certain visits might not require personal information, others
-                    could in order to provide access to particular links or websites. We use the information you have given us
-                    to deliver information and updates, confirm receipt of your message, and offer pertinent goods and
-                    services. We do not share personal information with outside parties, and you have the option to unsubscribe
-                    from our email list.
-                </p>
+                    <li>
+                        <strong>How We Use Your Data</strong>
+                        <ul className="list-disc pl-6">
+                            <li>To respond to inquiries and send project updates</li>
+                            <li>To tailor marketing messages and brochures (via internal CRM)</li>
+                            <li>To schedule callbacks and site visits</li>
+                            <li>To analyze and optimize marketing effectiveness</li>
+                        </ul>
+                    </li>
 
-                <h2 className="text-2xl font-semibold mt-6 mb-2">Security</h2>
-                <p className="mb-4">
-                    Sensitive information is encrypted during transmission between the client and server. We restrict employee
-                    access to your personal information and hold them to high levels of confidentiality. We may use cookies for
-                    security, session continuity, and customization purposes. Rejecting cookies may limit your access to
-                    certain services or features. For questions or suggestions regarding this privacy statement or your
-                    dealings with this website, please contact us.
-                </p>
+                    <li>
+                        <strong>Legal Basis for Processing (GDPR)</strong>
+                        <ul className="list-disc pl-6">
+                            <li>Your consent (via forms or cookie banner)</li>
+                            <li>Performance of contractual requests</li>
+                            <li>Legitimate interest in marketing offers</li>
+                        </ul>
+                    </li>
 
-                <p className="mt-6">
-                    This website is not the official one; it is only meant to be used for informative purposes.
-                </p>
+                    <li>
+                        <strong>Tracking Technologies & Cookies</strong>
+                        <p>
+                            We use cookies and tracking tools such as Facebook Pixel and Google Analytics for
+                            advertising and measurement. You may accept or reject tracking cookies on first visit
+                            via the cookie banner.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Data Sharing & Disclosure</strong>
+                        <ul className="list-disc pl-6">
+                            <li>Internal sales and CRM teams</li>
+                            <li>Authorized agents or partners (as needed)</li>
+                            <li>Meta, Google, and advertising platforms</li>
+                            <li>Cloud-based CRM and marketing tools</li>
+                        </ul>
+                        <p>We do not sell or rent your personal data.</p>
+                    </li>
+
+                    <li>
+                        <strong>Your Rights</strong>
+                        <p>
+                            If you reside in regions with privacy laws (EU/UK/California), you have the right to
+                            access, correct, delete, or restrict the use of your data, and withdraw consent at any
+                            time.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Data Retention</strong>
+                        <p>
+                            We retain your data only as long as needed or for legal compliance, and no longer than
+                            24 months of inactivity.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Security Measures</strong>
+                        <p>
+                            We implement technical and organizational safeguards, but no system is fully secure.
+                            Please protect your login details.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Children’s Privacy</strong>
+                        <p>
+                            Our services are intended for users aged 18+. We do not knowingly collect data from
+                            minors.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Third-Party Links</strong>
+                        <p>
+                            Our website may contain links to third-party services or platforms. We are not
+                            responsible for their privacy practices.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Updates to This Policy</strong>
+                        <p>
+                            We may update this policy. Changes will be posted here with a new “Effective Date.”
+                            Continued use implies acceptance.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>Contact Information</strong>
+                        <p>
+                            <strong>Nambiar District 25</strong>
+                            <br />
+                            Off Sarjapur Road, Muthanallur Cross,
+                            <br />
+                            Bangalore Rural - East,
+                            <br />
+                            Karnataka Pin Code: 560099
+                            <br />
+                            Phone: 1234567890
+                            <br />
+                            Email: abc@gmail.com
+                            <br />
+                            Website:{' '}
+                            <a
+                                href="https://nambiardistrict25.live/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 underline"
+                            >
+                                https://nambiardistrict25.live/
+                            </a>
+                        </p>
+                    </li>
+                </ol>
             </div>
         </main>
     );
