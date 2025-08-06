@@ -10,12 +10,12 @@ export async function POST(req) {
 
     try {
         const transporter = nodemailer.createTransport({
-            host: 'smtp.gmail.com',
-            port: 465,
-            secure: true, // use SSL
+            host: 'sg1-cl9-ats3.a2hosting.com',
+            port: 2525,
+            secure: false, // use SSL
             auth: {
-                user: 'ravi.k@imsolutions.mobi',
-                pass: 'tuzr zufs sulf hilp',
+                user: 'noreply@nambiardistrict25.live',
+                pass: '4C-,tvSe]9xZk4(&',
             },
             tls: {
                 rejectUnauthorized: false, // <-- add this line
@@ -25,7 +25,7 @@ export async function POST(req) {
 
         await transporter.sendMail({
             from: `"nambiar-district-25"`,
-            to: 'ravi.k@imsolutions.mobi',
+            to: 'noreply@nambiardistrict25.live',
             subject: 'Enquiry from Nambiar District 25 - Landing Page',
             html: `
         <p><strong>Name:</strong> ${name}</p>
