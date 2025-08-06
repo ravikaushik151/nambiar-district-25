@@ -89,7 +89,7 @@ export default function PrivacyPolicyPage() {
                 <p>We apply technical and administrative measures to safeguard your data. While we strive to protect your personal information, no internet transmission or storage method is 100% secure. Always use strong passwords and be cautious with shared credentials.</p>
 
                 <ol start="9" className="ps-3">
-                    <li className="fw-semibold mt-4">Children's Privacy</li>
+                    <li className="fw-semibold mt-4">Children&apos;s Privacy</li>
                 </ol>
                 <p>Our services are not intended for children under the age of 18. We do not knowingly collect personal information from minors. If we become aware of such data, we will delete it promptly.</p>
 
@@ -101,7 +101,7 @@ export default function PrivacyPolicyPage() {
                 <ol start="11" className="ps-3">
                     <li className="fw-semibold mt-4">Policy Updates</li>
                 </ol>
-                <p>We may update this policy periodically to reflect changes in law or business practices. Any updates will be posted on this page with the new "Effective Date." Continued use of our services implies your acceptance of these changes.</p>
+                <p>We may update this policy periodically to reflect changes in law or business practices. Any updates will be posted on this page with the new &quot;Effective Date.&quot; Continued use of our services implies your acceptance of these changes.</p>
 
                 <ol start="12" className="ps-3">
                     <li className="fw-semibold mt-4">Contact Us</li>
