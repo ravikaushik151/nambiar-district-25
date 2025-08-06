@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
                 <p><strong>Personal Information:</strong> Includes name, email address, phone number, and preferences you provide through forms.</p>
                 <p><strong>Automatically Collected Data:</strong> IP address, browser type, device information, visited pages, and time spent — collected via cookies, Facebook Pixel, and Google Analytics.</p>
 
-                <ol start="2" className="ps-3">
+                <ol start={2} className="ps-3">
                     <li className="fw-semibold mt-4">How We Use Your Information</li>
                 </ol>
                 <p>We use your data to:</p>
@@ -37,7 +37,7 @@ export default function PrivacyPolicyPage() {
                     <li>Improve our services through analytics and user behavior insights</li>
                 </ul>
 
-                <ol start="3" className="ps-3">
+                <ol start={3} className="ps-3">
                     <li className="fw-semibold mt-4">Legal Basis for Processing</li>
                 </ol>
                 <p>Under GDPR and similar regulations, we process your data based on:</p>
@@ -47,14 +47,14 @@ export default function PrivacyPolicyPage() {
                     <li>Legitimate interests: For marketing and service enhancement</li>
                 </ul>
 
-                <ol start="4" className="ps-3">
+                <ol start={4} className="ps-3">
                     <li className="fw-semibold mt-4">Cookies & Tracking Technologies</li>
                 </ol>
                 <p>
                     We use cookies, Facebook Pixel, and Google Analytics to personalize content and measure performance. When visiting our site, you will be prompted to accept or reject tracking cookies. You can change your preferences anytime through your browser settings.
                 </p>
 
-                <ol start="5" className="ps-3">
+                <ol start={5} className="ps-3">
                     <li className="fw-semibold mt-4">Data Sharing & Third Parties</li>
                 </ol>
                 <p>Your data may be shared with:</p>
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
                 </ul>
                 <p><strong>Note:</strong> We do not sell or rent your personal data to any third parties.</p>
 
-                <ol start="6" className="ps-3">
+                <ol start={6} className="ps-3">
                     <li className="fw-semibold mt-4">Your Rights & Choices</li>
                 </ol>
                 <p>Depending on your location, you may have the right to:</p>
@@ -78,32 +78,32 @@ export default function PrivacyPolicyPage() {
                 </ul>
                 <p>To exercise any of these rights, please contact us at <a href="mailto:propertysevaa@gmail.com" className="text-primary">propertysevaa@gmail.com</a>.</p>
 
-                <ol start="7" className="ps-3">
+                <ol start={7} className="ps-3">
                     <li className="fw-semibold mt-4">Data Retention</li>
                 </ol>
                 <p>We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy or to comply with legal obligations. Typically, this does not exceed 24 months from your last interaction.</p>
 
-                <ol start="8" className="ps-3">
+                <ol start={8} className="ps-3">
                     <li className="fw-semibold mt-4">Data Security</li>
                 </ol>
                 <p>We apply technical and administrative measures to safeguard your data. While we strive to protect your personal information, no internet transmission or storage method is 100% secure. Always use strong passwords and be cautious with shared credentials.</p>
 
-                <ol start="9" className="ps-3">
+                <ol start={9} className="ps-3">
                     <li className="fw-semibold mt-4">Children&apos;s Privacy</li>
                 </ol>
                 <p>Our services are not intended for children under the age of 18. We do not knowingly collect personal information from minors. If we become aware of such data, we will delete it promptly.</p>
 
-                <ol start="10" className="ps-3">
+                <ol start={10} className="ps-3">
                     <li className="fw-semibold mt-4">External Links</li>
                 </ol>
                 <p>Our website may include links to third-party websites or services. We are not responsible for their privacy policies or practices. We encourage users to read the privacy policies of any external sites they visit.</p>
 
-                <ol start="11" className="ps-3">
+                <ol start={11} className="ps-3">
                     <li className="fw-semibold mt-4">Policy Updates</li>
                 </ol>
                 <p>We may update this policy periodically to reflect changes in law or business practices. Any updates will be posted on this page with the new &quot;Effective Date.&quot; Continued use of our services implies your acceptance of these changes.</p>
 
-                <ol start="12" className="ps-3">
+                <ol start={12} className="ps-3">
                     <li className="fw-semibold mt-4">Contact Us</li>
                 </ol>
                 <p>If you have questions or requests related to this Privacy Policy or your personal data, please contact us using the details below:</p>
