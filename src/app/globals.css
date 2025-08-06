@@ -1801,3 +1801,9 @@ footer button:hover {
 .bg-light-black {
   background-color: #00000087 !important;
 }
+
+.form-control:focus {
+  background-color: transparent !important;
+  border-color: none !important;
+  box-shadow: none !important;
+}
