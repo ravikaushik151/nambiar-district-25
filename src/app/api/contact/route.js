@@ -25,7 +25,7 @@ export async function POST(req) {
 
         await transporter.sendMail({
             from: `"nambiar-district-25"`,
-            to: 'noreply@nambiardistrict25.live',
+            to: 'ravi.k@imsolutions.mobi',
             subject: 'Enquiry from Nambiar District 25 - Landing Page',
             html: `
         <p><strong>Name:</strong> ${name}</p>

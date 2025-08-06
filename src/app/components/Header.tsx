@@ -96,12 +96,12 @@ export default function Header() {
                     <nav className="d-flex gap-4">
                         {[
                             { href: "/", label: "Home" },
-                            { href: "/#about", label: "About" },
-                            { href: "/#price", label: "Price" },
-                            { href: "/#amenities", label: "Amenities" },
-                            { href: "/master-plan", label: "Master Plan" },
-                            { href: "/location", label: "Location" },
-                            { href: "/#contact", label: "Contact" },
+                            { href: "#about", label: "About" },
+                            { href: "#price", label: "Price" },
+                            { href: "#amenities", label: "Amenities" },
+                            { href: "#master-plan", label: "Master Plan" },
+                            { href: "#location", label: "Location" },
+                            { href: "#contact", label: "Contact" },
                         ].map((link) => (
                             <Link
                                 key={link.href}

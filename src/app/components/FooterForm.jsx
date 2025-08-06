@@ -23,23 +23,26 @@ export default function FooterForm({ onClose }) {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const form = new FormData();
+        form.append('name', formData.name);
+        form.append('email', formData.email);
+        form.append('phone', formData.phone);
+        form.append('message', formData.message);
+
         try {
-            const res = await fetch('/api/contact', {
+            const res = await fetch('https://nambiardistrict25.live/api/form-handler.php', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
+                body: form,
             });
 
-            const result = await res.json();
+            const data = await res.json();
 
-            if (res.ok) {
+            if (data.status === 'success') {
                 setStatus('Message sent successfully!');
                 setFormData({ name: '', email: '', phone: '', message: '' });
                 if (onClose) onClose();
             } else {
-                setStatus(result.error || 'Something went wrong!');
+                setStatus(data.message || 'Something went wrong!');
             }
         } catch (err) {
             setStatus('Failed to send message.');
