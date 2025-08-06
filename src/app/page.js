@@ -429,7 +429,7 @@ export default function Home() {
                         </div>
                         <div className="home-connectivity_distance-text">
                           <div className="text-color-offwhite">
-                            <div className="text-size-large">Oakridge international school</div>
+                            <div className="text-size-large">Oakridge International</div>
                           </div>
                           <div className="text-color-silvermist">
                             <div className="text-size-regular">7 mins</div>

@@ -1293,7 +1293,8 @@ figcaption {
 }
 
 .text-color-accent {
-  color: var(--accent);
+  /*color: var(--accent);*/
+  color: #fff;
 }
 
 .text-color-offwhite {
