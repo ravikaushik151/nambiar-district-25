@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
                     <li>Request deletion or restrict how your data is used</li>
                     <li>Withdraw consent at any time without affecting prior processing</li>
                 </ul>
-                <p>To exercise any of these rights, please contact us at <a href="mailto:apropertysevaa@gmail.com" className="text-primary">apropertysevaa@gmail.com</a>.</p>
+                <p>To exercise any of these rights, please contact us at <a href="mailto:propertysevaa@gmail.com" className="text-primary">propertysevaa@gmail.com</a>.</p>
 
                 <ol start="7" className="ps-3">
                     <li className="fw-semibold mt-4">Data Retention</li>
@@ -113,7 +113,7 @@ export default function PrivacyPolicyPage() {
                     Bangalore Rural - East,<br />
                     Karnataka, Pin Code: 560099<br />
                     Phone: 1234567890<br />
-                    Email: <a href="mailto:apropertysevaa@gmail.com" className="text-primary">apropertysevaa@gmail.com</a><br />
+                    Email: <a href="mailto:propertysevaa@gmail.com" className="text-primary">propertysevaa@gmail.com</a><br />
                     Website: <a href="https://nambiardistrict25.live/" className="text-primary" target="_blank" rel="noopener noreferrer">nambiar-district-25-theta.vercel.app</a>
                 </address>
             </div>
