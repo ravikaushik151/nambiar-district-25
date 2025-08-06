@@ -109,12 +109,11 @@ export default function PrivacyPolicyPage() {
                 <p>If you have questions or requests related to this Privacy Policy or your personal data, please contact us using the details below:</p>
                 <address>
                     <strong>Nambiar District 25</strong><br />
-                    Address: Off Sarjapur Road, Muthanallur Cross,<br />
+                    Address: Nambiar District 25 location Off Sarjapur Road, Muthanallur Cross, Bangalore Rural - East,<br />
                     Bangalore Rural - East,<br />
                     Karnataka, Pin Code: 560099<br />
-                    Phone: 1234567890<br />
                     Email: <a href="mailto:propertysevaa@gmail.com" className="text-primary">propertysevaa@gmail.com</a><br />
-                    Website: <a href="https://nambiardistrict25.live/" className="text-primary" target="_blank" rel="noopener noreferrer">nambiar-district-25-theta.vercel.app</a>
+                    Website: <a href="https://nambiardistrict25.live/" className="text-primary" target="_blank" rel="noopener noreferrer">nambiardistrict25.live</a>
                 </address>
             </div>
         </main >
