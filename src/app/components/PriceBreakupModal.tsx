@@ -1,8 +1,23 @@
+'use client';
+
+import { useEffect } from 'react';
 import FooterForm from './FooterForm';
 
 export default function PriceBreakupModal() {
-    return (
+    useEffect(() => {
+        const timer = setTimeout(async () => {
+            const modalElement = document.getElementById('priceModal');
+            if (modalElement) {
+                const { default: Modal } = await import('bootstrap/js/dist/modal'); // ✅ dynamic import only on client
+                const modal = new Modal(modalElement);
+                modal.show();
+            }
+        }, 5000);
 
+        return () => clearTimeout(timer);
+    }, []);
+
+    return (
         <div
             className="modal fade"
             id="priceModal"
@@ -19,6 +34,7 @@ export default function PriceBreakupModal() {
                             className="btn-close"
                             data-bs-dismiss="modal"
                             aria-label="Close"
+                            id="priceModalCloseBtn"
                         ></button>
                     </div>
                     <div className="modal-body">

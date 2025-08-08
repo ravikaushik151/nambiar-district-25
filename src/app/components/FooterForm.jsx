@@ -1,8 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation'; // ✅ Correct import for App Router
 
 export default function FooterForm({ onClose }) {
+    const router = useRouter(); // ✅ Must be at top-level of the component
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -40,7 +43,11 @@ export default function FooterForm({ onClose }) {
             if (data.status === 'success') {
                 setStatus('Message sent successfully!');
                 setFormData({ name: '', email: '', phone: '', message: '' });
-                if (onClose) onClose();
+
+                if (onClose) onClose(); // Optional close handler
+
+                // ✅ Redirect to thank-you page
+                router.push('/thankyou');
             } else {
                 setStatus(data.message || 'Something went wrong!');
             }

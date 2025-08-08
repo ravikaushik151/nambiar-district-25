@@ -1338,8 +1338,8 @@ figcaption {
   background-color: var(--dark-rainforest);
   justify-content: center;
   align-items: flex-start;
-  height: 45vh;
   padding-top: 4rem;
+  padding-bottom: 6rem;
   position: relative;
   overflow: hidden;
 }

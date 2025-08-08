@@ -1807,3 +1807,11 @@ footer button:hover {
   border-color: none !important;
   box-shadow: none !important;
 }
+
+.space-y-6 {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
