@@ -74,6 +74,19 @@ export default function RootLayout({ children }) {
   return (
     <html data-wf-page="123456" lang="en">
       <head>
+          {/* Google Ads Tag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16909428071"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16909428071');
+          `}
+        </Script>
         <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/images/webclip.svg" />
 
