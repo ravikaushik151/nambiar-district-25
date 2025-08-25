@@ -192,9 +192,9 @@ export default function Home() {
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       2 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 1.53 - 1.70 Cr*</h4>
+                    <h4 className="fw-bold mb-1">₹ 1.47 Cr* Onwards</h4>
                     <p className="mb-1">Onwards</p>
-                    <p className="text-muted mb-3">Size – 1242 - 1323 Sq.ft.</p>
+                    <p className="text-muted mb-3">Size – 1195 - 1262 sqft.</p>
                     <hr />
                     <button className="btn btn-dark fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#priceModal">
                       Request For Price Breakup
@@ -208,9 +208,9 @@ export default function Home() {
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       2.5 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 1.08 - 1.95 Cr*</h4>
+                    <h4 className="fw-bold mb-1">₹ 1.69 Cr* Onwards</h4>
                     <p className="mb-1">Onwards</p>
-                    <p className="text-muted mb-3">Size – 1417 - 1521 Sq.ft.</p>
+                    <p className="text-muted mb-3">Size – 1375 - 1447 sqft.</p>
                     <hr />
                     <button className="btn btn-dark fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#priceModal">
                       Request For Price Breakup
@@ -224,9 +224,9 @@ export default function Home() {
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       3 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 2.05 - 2.55 Cr*</h4>
+                    <h4 className="fw-bold mb-1">₹ 2.20 Cr* Onwards</h4>
                     <p className="mb-1">Onwards</p>
-                    <p className="text-muted mb-3">Size – 1620 - 2000 Sq.ft.</p>
+                    <p className="text-muted mb-3">Size – 1796 - 1955 sqft.</p>
                     <hr />
                     <button className="btn btn-dark fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#priceModal">
                       Request For Price Breakup
@@ -235,7 +235,7 @@ export default function Home() {
                 </div>
 
                 {/* 3.5 BHK Card */}
-                <div className="col-12 col-md-6 col-lg-4">
+                <div className="col-12 col-md-6 col-lg-4 d-none">
                   <div className="pricing-card text-center p-4 rounded-4 shadow-sm bg-white">
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       3.5 BHK
@@ -256,9 +256,9 @@ export default function Home() {
                     <div className="bhk-tag border border-success text-success fw-bold py-2 rounded-3 mb-3">
                       4 BHK
                     </div>
-                    <h4 className="fw-bold mb-1">₹ 3.15 - 3.30 Cr*</h4>
+                    <h4 className="fw-bold mb-1">₹ 3.08 Cr* Onwards</h4>
                     <p className="mb-1">Onwards</p>
-                    <p className="text-muted mb-3">Size – 2489 - 2590 Sq.ft.</p>
+                    <p className="text-muted mb-3">Size – 2512 sqft.</p>
                     <hr />
                     <button className="btn btn-dark fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#priceModal">
                       Request For Price Breakup
