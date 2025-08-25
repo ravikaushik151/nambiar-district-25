@@ -1815,3 +1815,7 @@ footer button:hover {
   text-align: center;
   justify-content: center;
 }
+
+.right-fix i {
+  font-size: 25px;
+}

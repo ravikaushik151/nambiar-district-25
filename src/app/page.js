@@ -5,6 +5,8 @@ import Link from "next/link";
 import Amenities from './components/Amenities';
 import Image from 'next/image';
 import HeroSlider from './components/Home/HeroSlider';
+import Head from 'next/head';
+import Script from 'next/script';
 export default function Home() {
 
   useEffect(() => {
@@ -85,8 +87,6 @@ export default function Home() {
 
   return (
     <>
-
-
       <main className="main-wrapper">
         <HeroSlider />
         <div id="scroll-more">
@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
                 <div className="col-6 col-md-3 border-end border-light mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Starting Price</h6>
-                  <p className="mb-0 fs-2 fw-light">Rs 91 Lakh*</p>
+                  <p className="mb-0 fs-2 fw-light">Rs 1.54 cr*</p>
                 </div>
                 <div className="col-6 col-md-3 mt-4 mt-md-0">
                   <h6 className="fw-bold text-uppercase fs-5">Floors</h6>
